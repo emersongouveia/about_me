@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Raul (:</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper-sidebar" class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Raul Sauaia</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="pessoal.html">Pessoal</a>
+                    <a href="formacao.html">Formação</a>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+   <!-- Toggle Button -->
+    <div class="container-fluid" style="padding-top: 2%;">
+    <button type="button" id="sidebarCollapse" class="btn btn-info">
+        <span>Menu</span>
+    </button>
+        <!-- Page Content  -->
+        <div id="content">
+            <div>
+                <h2>Ensino Superior</h2>
+                <h6 class="funny">(3 instituições 0 diplomas)</h6>
+                <br>
+                <ul class="texto">
+                    <li> 2 semestres de Engenharia Mêcanica na Universidade Estadual de São Paulo (UNESP)</li>
+                    <li> 5 semestres de Engenharia Naval e Oceânica na Universidade Federal do Rio de Janeiro (UFRJ)</li>
+                    <li> cursando Engenharia de Sistemas na Universidade Federal de Minas Gerais (UFMG)</li>
+                </ul>
+                <div class="line"></div>
+                <h2>Linguas</h2>
+                <h6 class="funny">(4)</h6>
+                <br>
+                <ul class="texto">
+                    <li> Fluente em Inglês, formado pela Cultura Inglesa (15 anos de fluência).</li>
+                    <li> Fluente em Português desde o Ensino Fundamental <h6 class="funny">(oração subordinada assindética adversativa)</h6></li>
+                    <li> Nível "La Casa de Papel", "Elite" y "Anitta's Songs' em Espanhol, ¿vale?</li>
+                    <li> Nível "Absolute Beginner" em Húngaro, (Magyar származású vagyok)</li>
+                </ul>
+                <div class="line"></div>
+
+                <h2>Cursos Extras</h2>
+                <br>
+                <ul class="texto">
+                    <li> Modern javascript (Novice to Ninja) - Udemy</li>
+                    <li> Android Complete Masterclass - Udemy </li>
+                    <li> Curso completo de HTML5, CSS e JavaScrip - Estudonauta, indicado para os trainees da iJunior (rs)</li>
+                </ul>
+            
+      
+
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                });
+            });
+        </script>
+</body>
+
+</html>
